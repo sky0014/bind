@@ -1,6 +1,6 @@
 {
   "name": "sky-bind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bind all your class methods with one line.",
   "main": "dist/index.js",
   "scripts": {
