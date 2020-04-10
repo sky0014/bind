@@ -1,6 +1,6 @@
 {
   "name": "sky-bind",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bind all your class methods with one line.",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/sky0014/bind.git"
   },
-  "keywords": [],
+  "keywords": [
+    "bind",
+    "bindAll",
+    "auto",
+    "this",
+    "bound"
+  ],
   "author": "sky0014 <sky-wang@qq.com>",
   "bugs": {
     "url": "https://github.com/sky0014/bind/issues"
