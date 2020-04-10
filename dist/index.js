@@ -4,6 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.bindAll = bindAll;
+
 /**
  * 遍历对象，绑定全部函数
  * @param {*} target 要绑定到的目标
@@ -11,11 +12,13 @@ exports.bindAll = bindAll;
  * @returns {void}
  */
 function bindAll(target) {
-  const that = target;
-  const bindFunctions = {};
+  var that = target;
+  var bindFunctions = {};
+
   while (target && target !== Object.prototype) {
-    Object.getOwnPropertyNames(target).forEach(name => {
-      const config = Object.getOwnPropertyDescriptor(target, name);
+    Object.getOwnPropertyNames(target).forEach(function (name) {
+      var config = Object.getOwnPropertyDescriptor(target, name);
+
       if (config) {
         if (config.get || config.set) {
           return;
@@ -29,7 +32,8 @@ function bindAll(target) {
     });
     target = Object.getPrototypeOf(target);
   }
-  Object.keys(bindFunctions).forEach(name => {
+
+  Object.keys(bindFunctions).forEach(function (name) {
     that[name] = that[name].bind(that);
   });
 }
