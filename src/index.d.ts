@@ -1,0 +1,1 @@
+export function bindAll(target: any):void

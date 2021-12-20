@@ -1,10 +1,10 @@
 {
-  "name": "sky-bind",
-  "version": "1.0.3",
+  "name": "@sky0014/bind",
+  "version": "1.0.0",
   "description": "Bind all your class methods with one line.",
   "main": "src/index.js",
   "scripts": {
-    "pub": "npm publish --registry=http://registry.npmjs.org"
+    "pub": "npm publish --registry=https://registry.npmjs.org --access public"
   },
   "repository": {
     "type": "git",
