@@ -1,17 +1,17 @@
-# sky-bind
+# bind
 
 Bind all your class methods with one line.
 
 ## Install
 
 ```bash
-npm install sky-bind
+npm install @sky0014/bind
 ```
 
 ## Usage
 
 ```js
-import { bindAll } from "sky-bind";
+import { bindAll } from "@sky0014/bind";
 
 class A {
   name = "A";

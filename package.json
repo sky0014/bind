@@ -1,12 +1,10 @@
 {
-  "name": "sky-bind",
-  "version": "1.0.2",
+  "name": "@sky0014/bind",
+  "version": "1.0.4",
   "description": "Bind all your class methods with one line.",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "set DEBUG=*,-babel && npm run build && node dist/index.js",
-    "build": "babel src -d dist",
-    "pub": "npm run build && npm publish --registry=http://registry.npmjs.org"
+    "pub": "npm publish --registry=https://registry.npmjs.org --access public"
   },
   "repository": {
     "type": "git",
@@ -24,9 +22,5 @@
     "url": "https://github.com/sky0014/bind/issues"
   },
   "homepage": "https://github.com/sky0014/bind/#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5"
-  }
+  "devDependencies": {}
 }
